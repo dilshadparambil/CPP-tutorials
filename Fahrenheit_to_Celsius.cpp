@@ -1,11 +1,16 @@
 #include <iostream>
 
 int main() {
-
-  double tempf = 78;
+  
+  double tempf;
   double tempc;
-
-  tempc=(tempf-32)/1.8;
-
-  std::cout<<"The temp is "<<tempc<<" degrees Celsius.\n";  
+  
+  std::cout << "Enter the temperature in Fahrenheit:\n ";
+  std::cin >> tempf;
+  
+  
+  tempc = (tempf - 32) / 1.8;
+  
+  std::cout << "The temp is " << tempc << " degrees Celsius.\n";
+  
 }
