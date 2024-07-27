@@ -1,7 +1,7 @@
 #include <iostream>
 
 int main() {
-
+  
   int Planet_No;
   double earth_weight,outside_weight;
   std::cout<<"enter the earth weight\n";
@@ -36,6 +36,5 @@ int main() {
   }
 
 std::cout<<"weight on the destination planet is:"<<outside_weight<<"\n";
-
   
 }
